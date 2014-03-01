@@ -422,9 +422,9 @@ display:none;
 
 /* ABOUT
 ============================== */
-#about { padding: 60px 0 100px 0; background: #dcdcdc; border-bottom: 1px solid #e3e3e3; }
+#nosotros { padding: 60px 0 100px 0; background: #dcdcdc; border-bottom: 1px solid #e3e3e3; }
 
-#about .row { padding-top: 60px; padding-left: 16px; }
+#nosotros .row { padding-top: 60px; padding-left: 16px; }
 
 	/* PERSON */
 	.person 		{ width: 100%; background: #fff; margin-bottom: 8px; padding-bottom: 8px; position: relative; text-align: center; }
@@ -434,7 +434,9 @@ display:none;
 		.person ul a:hover	{ text-decoration: none; }
 		.person p a { font-size:12px; }
 		.person ul { margin-top: 20px; }
-#about .span3 {margin-left: 14px;}
+#nosotros .span4 {margin-left: 1px;}
+
+.personas2 {position: relative;}
 
 /* ABOUT
 ============================== */
