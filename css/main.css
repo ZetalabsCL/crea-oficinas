@@ -11,7 +11,7 @@
 }
 
 h2.text-center { font-family: "Open Sans", sans-serif; text-transform: uppercase; letter-spacing: -3px; font-weight: 800;}
-p.text-center { font-family: "Open Sans", sans-serif; letter-spacing: -1px; font-weight: 300; color:#999;}
+p.text-center { font-family: "Open Sans", sans-serif; letter-spacing: -1px; font-weight: 300; color:#999;padding: 0 100px 0 100px;}
 
 /* BODY
 ============================== */
@@ -623,3 +623,28 @@ footer  { width: 100%; padding: 20px 0; background: #333; text-align: center; }
 }
 
 
+/*
+  nuevas clases
+*/
+
+a#llamenos {
+  position: relative;width:50%; top: 150%; left: 30%;
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+/*  box-shadow: 0 2px 1px rgba(234,117,22, 0.5), inset 0 2px 1px rgba(0, 0, 0, 0.2);*/
+  background: rgba(234,117,22, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a#llamenos:hover { background-color: rgba(0,0,0,0.6); }
+
+.txtblock2 {color:#CCCCCC; font-weight: 300; font-size: 28px; line-height: 52px; letter-spacing: -1px; max-width:900px; margin: 0 auto; text-align: center; font-family: 'Merriweather', Georgia, serif; padding: 0 100px 0 100px;}
